@@ -1,0 +1,384 @@
+@charset "utf-8";
+/*公共样式*/
+body,
+h3,
+h1,
+dl,
+dd,
+ul,
+span,
+li{ margin: 0;}
+
+ul{
+	padding: 0;
+}
+body{
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","PingFang SC","Arial","Microsoft YaHei",sans-serif;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*header样式*/
+
+.logo{
+	background: linear-gradient(#323236,#0f1012);
+}
+
+.logo h1{
+	background: url(../images/1_05.png),url(../images/1_02.gif);
+	height: 108px;
+	background-position: 0 20px, 0 0;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+.nav{
+	position: relative; 
+	height: 30px;
+	border: 1px solid #2d2e2f;
+	background: linear-gradient(#1e1d1e,#000);
+}
+
+.nav ul{
+	position: absolute;
+	width: 930px;
+    height: 48px;
+    margin-left: -480px;
+    top: -6px;
+    padding-left: 30px;
+    left: 50%;
+	border: 1px solid #2d2e2f;
+	border-radius: 8px;
+	background: linear-gradient(#1e1d1e,#000);
+	-webkit-box-shadow: #2d2e2f 0px 2px 8px;
+    -moz-box-shadow: #2d2e2f 0px 2px 8px;
+     box-shadow: #2d2e2f 0px 2px 8px;
+}
+
+.nav li{
+	float: left;
+	width: 110px;
+	line-height: 48px;
+	text-align: center;
+}
+
+.nav a{color: #fff;}
+
+.nav a:hover {color: #f00;}
+
+.banner{background: #000;}
+
+.slider img{
+	
+}
+.slider{
+	height: 320px;
+}
+
+/*contanct样式*/
+.contanct{padding-left: 120px;}
+
+.contanct span{
+	display: inline-block;
+	height: 60px;
+	margin-right: 80px;
+	padding-left: 25px;
+	line-height: 60px;
+	vertical-align: middle;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.contanct .service1{
+	font-size: 20px;
+	padding-left: 60px;
+	background-image: url(../images/1_10.png);
+}
+
+.contanct .service2{background-image: url(../images/1_13.png);}
+.contanct .service3{background-image: url(../images/1_19.png);}
+.contanct .service4{background-image: url(../images/1_16.png);}
+
+.main{
+	height: 200px;
+	background: linear-gradient( #c4c8cb,#fff);
+}
+
+.point{overflow: hidden;}
+
+.point dl{
+	float: left;
+	width: 148px;
+	padding-left: 80px;
+	padding-right: 20px;
+	margin: 50px 0 30px;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #a9a9a9;
+	background-repeat: no-repeat;
+	background-position: 20px 5px;
+}
+
+.point dl:first-child {border-left: none;}
+
+.point dl:last-child {border-right: none;} 
+
+.point .p01 {background-image: url(../images/1_26-08.png);}
+.point .p02 {background-image: url(../images/1_26.png);}
+.point .p03 {background-image: url(../images/1_32.png);}
+.point .p04 {background-image: url(../images/1_35.png);}
+
+.majul{text-align: center;}
+
+.serviceLeft{
+	width: 650px;
+	float: left;
+}
+
+.serviceRight p,
+.serviceLeft p{
+	 background-repeat: no-repeat;
+	 padding-left: 25px;
+	 line-height: 32px;
+	 color: #fff;
+	 font-size: 14px;
+	 margin-right: 10px;
+}
+
+.serviceLeft .serviceTop1{
+	margin-top: 20px;
+	height: 32px;
+	background-image: url(../images/1_52.png)
+}
+.serviceLeft span{
+	float: left;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #ccc;
+}
+
+.serviceLeft ul{
+	width: 310px;
+	float: right;
+	list-style:none;
+	
+}
+
+.serviceLeft li{
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+	
+}
+
+.serviceLeft a{
+	color: #ff5915;
+	font-weight: bold;
+}
+
+.serviceLeft li img{
+	float: left;
+	margin-left: -15px;
+	margin-right: 5px;
+	padding: 2px;
+	background: #efefef;
+	border: 1px solid #ccc;
+}
+
+.serviceLeft dd{
+	display: inline-block;
+	float: left;
+	width: 250px;
+}
+
+.serviceLeft dt{
+	margin-bottom: 5px;
+	float: left;
+}
+
+.serviceRight{
+	float: right;
+	margin-top: 5px;
+}
+
+.serviceRight1{
+	background-image: url(../images/1_55.png);
+	width: 300px;
+    height: 32px;
+
+}
+
+.serviceRight li{
+	list-style:none;
+	margin-bottom: 6px;
+}
+
+.curriculum{
+	overflow: hidden;
+	width: 961px;
+	height: 32px;
+	background-image: url(../images/1_59.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.curriculum dt{font-size: 14px;}
+
+.curriculum dd,
+.curriculum dt{
+	float: left;
+	color: #fff;
+	padding-left: 30px;
+	margin-top: 8px;
+	margin-right: 10px;
+	
+}
+
+.Classroom{background: #fff;height: 650px;}
+
+.ClassroomLeft {
+	float: left;
+	margin: 15px 10px 0 0;
+}
+
+.ClassroomLeft span img{
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #ccc;
+}
+
+.ClassroomLeft a{
+	color: #ff5915;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.ClassroomLeft ul{
+	border-right: 2px solid #ccc;
+	height: 250px;
+	}
+
+.ClassroomLeft li{
+	list-style:none;
+	float: left;
+	margin-right: 20px;
+}
+
+.ClassroomLeft dl{margin-left: 5px;}
+
+.ClassroomLeft dt{
+	margin: 10px 0;
+}
+
+.ClassroomLeft dd{
+	width: 201px;
+}
+
+.ClassroomRight{
+	width: 300px;
+	overflow: hidden;
+	color: #ccc;
+	float: left;
+	margin-top: 15px;
+	margin-left: -10px;
+	margin-bottom: 20px;
+}
+
+.ClassroomRight ul{
+	height: 300px;
+}
+
+.ClassroomRight span{
+	margin-left: 10px;
+	float: left;
+}
+
+.ClassroomRight ul span{margin-top: 10px;}
+
+.ClassroomRight li{
+       background: #f2f2f2;
+       display: inline-block;
+       height: 70px;
+       width: 300px;
+       margin: 10px 0 5px 10px;
+}
+
+.ClassroomRight dl{
+	float: left;
+	margin-left: 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.ClassroomRight dt{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.ClassroomRight dd{
+	width: 220px;
+	word-wrap: break-word;
+    white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis
+}
+
+.copyright{
+	background: #484742;
+	height: 400px;
+
+}
+
+.copyright1 ul{
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 50px;
+	width: 900px;
+	margin: 0 auto;
+}
+.copyright1 li{
+	margin-top: 40px;
+	margin-right: 50px;
+    list-style: none;
+    display: inline-block;  
+}
+
+
+.fiteinfo ul{
+	margin-top: 10px;
+	color: #fff;
+	text-align: center;
+	
+}
+
+.fiteinfo li{
+    display: inline-block;
+	margin-right: 50px;
+	list-style: none;
+}
+
+
+.fiteinfo dt{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+.siteinfoLegal{
+	text-align: center;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.siteinfoLegal li{
+
+	display: inline-block;
+	width: 780px;
+}
